@@ -1,0 +1,45 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+env/
+venv/
+*.env
+
+# Environment variable files
+.env
+
+# FastAPI-specific files (if you use uvicorn or similar servers)
+*.log
+
+# VSCode settings (if you use VSCode)
+.vscode/
+
+# PyCharm settings (if you use PyCharm)
+.idea/
+
+# Docker-related files (if you're using Docker)
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Pytest coverage reports
+.coverage
+coverage.xml
+*.coveragerc
+
+# MyPy (static type checker) configuration
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter notebook checkpoints (if you use Jupyter notebooks)
+.ipynb_checkpoints/
+
+# FastAPI example files (if you don't want to track them)
+*.bak
+*.swp
