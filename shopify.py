@@ -1,6 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from services import shopify_service
+
+import shopify_service
 
 router = APIRouter()
 

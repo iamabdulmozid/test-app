@@ -1,6 +1,7 @@
 from fastapi import FastAPI
-from routers import shopify
 from fastapi.middleware.cors import CORSMiddleware
+
+import shopify
 
 app = FastAPI(title="Order Manager API")
 
